@@ -46,6 +46,7 @@ sections for each list of figures, tables, etc.
 %doc %{_texmfdistdir}/doc/latex/smalltableof/README
 %doc %{_texmfdistdir}/doc/latex/smalltableof/smalltableof-doc-fr.pdf
 %doc %{_texmfdistdir}/doc/latex/smalltableof/smalltableof-doc-fr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ sections for each list of figures, tables, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
