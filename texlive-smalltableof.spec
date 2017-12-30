@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-smalltableof
-Version:	20101105
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Create listoffigures etc. in a single chapter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/smalltableof
