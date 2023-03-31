@@ -1,6 +1,6 @@
 Name:		texlive-smalltableof
 Version:	20333
-Release:	1
+Release:	2
 Summary:	Create listoffigures etc. in a single chapter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/smalltableof
