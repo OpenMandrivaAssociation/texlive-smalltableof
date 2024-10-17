@@ -3,7 +3,7 @@ Version:	20333
 Release:	2
 Summary:	Create listoffigures etc. in a single chapter
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/smalltableof
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/smalltableof
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/smalltableof.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/smalltableof.doc.r%{version}.tar.xz
